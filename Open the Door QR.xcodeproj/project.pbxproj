@@ -15,6 +15,10 @@
 		A861818026EA5F720018EBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A861817E26EA5F720018EBEA /* LaunchScreen.storyboard */; };
 		A861818B26EA5F720018EBEA /* Input_By_QRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A861818A26EA5F720018EBEA /* Input_By_QRTests.swift */; };
 		A861819626EA5F720018EBEA /* Input_By_QRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A861819526EA5F720018EBEA /* Input_By_QRUITests.swift */; };
+		A86181A426EB94A20018EBEA /* QRClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86181A326EB94A20018EBEA /* QRClass.swift */; };
+		A8B52ADB26F8D48D00B120D8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8B52ADA26F8D48D00B120D8 /* Settings.bundle */; };
+		A8B52ADD26F8E0FB00B120D8 /* checkInternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B52ADC26F8E0FB00B120D8 /* checkInternetConnection.swift */; };
+		A8B52ADF26F9B85B00B120D8 /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B52ADE26F9B85B00B120D8 /* MyExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A861817026EA5F6F0018EBEA /* Input By QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Input By QR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A861817026EA5F6F0018EBEA /* Open the Door QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open the Door QR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A861817326EA5F6F0018EBEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A861817526EA5F6F0018EBEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A861817726EA5F6F0018EBEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +47,14 @@
 		A861817C26EA5F720018EBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A861817F26EA5F720018EBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A861818126EA5F720018EBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A861818626EA5F720018EBEA /* Input By QRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input By QRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A861818626EA5F720018EBEA /* Open the Door QRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open the Door QRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A861818A26EA5F720018EBEA /* Input_By_QRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_By_QRTests.swift; sourceTree = "<group>"; };
-		A861818C26EA5F720018EBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A861819126EA5F720018EBEA /* Input By QRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input By QRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A861819126EA5F720018EBEA /* Open the Door QRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open the Door QRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A861819526EA5F720018EBEA /* Input_By_QRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_By_QRUITests.swift; sourceTree = "<group>"; };
-		A861819726EA5F720018EBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86181A326EB94A20018EBEA /* QRClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRClass.swift; sourceTree = "<group>"; };
+		A8B52ADA26F8D48D00B120D8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A8B52ADC26F8E0FB00B120D8 /* checkInternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInternetConnection.swift; sourceTree = "<group>"; };
+		A8B52ADE26F9B85B00B120D8 /* MyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +95,9 @@
 		A861817126EA5F6F0018EBEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A861817026EA5F6F0018EBEA /* Input By QR.app */,
-				A861818626EA5F720018EBEA /* Input By QRTests.xctest */,
-				A861819126EA5F720018EBEA /* Input By QRUITests.xctest */,
+				A861817026EA5F6F0018EBEA /* Open the Door QR.app */,
+				A861818626EA5F720018EBEA /* Open the Door QRTests.xctest */,
+				A861819126EA5F720018EBEA /* Open the Door QRUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +112,10 @@
 				A861817C26EA5F720018EBEA /* Assets.xcassets */,
 				A861817E26EA5F720018EBEA /* LaunchScreen.storyboard */,
 				A861818126EA5F720018EBEA /* Info.plist */,
+				A86181A326EB94A20018EBEA /* QRClass.swift */,
+				A8B52ADA26F8D48D00B120D8 /* Settings.bundle */,
+				A8B52ADC26F8E0FB00B120D8 /* checkInternetConnection.swift */,
+				A8B52ADE26F9B85B00B120D8 /* MyExtension.swift */,
 			);
 			path = "Input By QR";
 			sourceTree = "<group>";
@@ -114,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				A861818A26EA5F720018EBEA /* Input_By_QRTests.swift */,
-				A861818C26EA5F720018EBEA /* Info.plist */,
 			);
 			path = "Input By QRTests";
 			sourceTree = "<group>";
@@ -123,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				A861819526EA5F720018EBEA /* Input_By_QRUITests.swift */,
-				A861819726EA5F720018EBEA /* Info.plist */,
 			);
 			path = "Input By QRUITests";
 			sourceTree = "<group>";
@@ -131,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A861816F26EA5F6F0018EBEA /* Input By QR */ = {
+		A861816F26EA5F6F0018EBEA /* Open the Door QR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A861819A26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Input By QR" */;
+			buildConfigurationList = A861819A26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Open the Door QR" */;
 			buildPhases = (
 				A861816C26EA5F6F0018EBEA /* Sources */,
 				A861816D26EA5F6F0018EBEA /* Frameworks */,
@@ -143,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = "Input By QR";
+			name = "Open the Door QR";
 			productName = "Input By QR";
-			productReference = A861817026EA5F6F0018EBEA /* Input By QR.app */;
+			productReference = A861817026EA5F6F0018EBEA /* Open the Door QR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A861818526EA5F720018EBEA /* Input By QRTests */ = {
+		A861818526EA5F720018EBEA /* Open the Door QRTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A861819D26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Input By QRTests" */;
+			buildConfigurationList = A861819D26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Open the Door QRTests" */;
 			buildPhases = (
 				A861818226EA5F720018EBEA /* Sources */,
 				A861818326EA5F720018EBEA /* Frameworks */,
@@ -161,14 +169,14 @@
 			dependencies = (
 				A861818826EA5F720018EBEA /* PBXTargetDependency */,
 			);
-			name = "Input By QRTests";
+			name = "Open the Door QRTests";
 			productName = "Input By QRTests";
-			productReference = A861818626EA5F720018EBEA /* Input By QRTests.xctest */;
+			productReference = A861818626EA5F720018EBEA /* Open the Door QRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A861819026EA5F720018EBEA /* Input By QRUITests */ = {
+		A861819026EA5F720018EBEA /* Open the Door QRUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A86181A026EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Input By QRUITests" */;
+			buildConfigurationList = A86181A026EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Open the Door QRUITests" */;
 			buildPhases = (
 				A861818D26EA5F720018EBEA /* Sources */,
 				A861818E26EA5F720018EBEA /* Frameworks */,
@@ -179,9 +187,9 @@
 			dependencies = (
 				A861819326EA5F720018EBEA /* PBXTargetDependency */,
 			);
-			name = "Input By QRUITests";
+			name = "Open the Door QRUITests";
 			productName = "Input By QRUITests";
-			productReference = A861819126EA5F720018EBEA /* Input By QRUITests.xctest */;
+			productReference = A861819126EA5F720018EBEA /* Open the Door QRUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A861816B26EA5F6F0018EBEA /* Build configuration list for PBXProject "Input By QR" */;
+			buildConfigurationList = A861816B26EA5F6F0018EBEA /* Build configuration list for PBXProject "Open the Door QR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A861816F26EA5F6F0018EBEA /* Input By QR */,
-				A861818526EA5F720018EBEA /* Input By QRTests */,
-				A861819026EA5F720018EBEA /* Input By QRUITests */,
+				A861816F26EA5F6F0018EBEA /* Open the Door QR */,
+				A861818526EA5F720018EBEA /* Open the Door QRTests */,
+				A861819026EA5F720018EBEA /* Open the Door QRUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B52ADB26F8D48D00B120D8 /* Settings.bundle in Resources */,
 				A861818026EA5F720018EBEA /* LaunchScreen.storyboard in Resources */,
 				A861817D26EA5F720018EBEA /* Assets.xcassets in Resources */,
 				A861817B26EA5F6F0018EBEA /* Main.storyboard in Resources */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A861817826EA5F6F0018EBEA /* ViewController.swift in Sources */,
+				A86181A426EB94A20018EBEA /* QRClass.swift in Sources */,
+				A8B52ADD26F8E0FB00B120D8 /* checkInternetConnection.swift in Sources */,
 				A861817426EA5F6F0018EBEA /* AppDelegate.swift in Sources */,
 				A861817626EA5F6F0018EBEA /* SceneDelegate.swift in Sources */,
+				A8B52ADF26F9B85B00B120D8 /* MyExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		A861818826EA5F720018EBEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A861816F26EA5F6F0018EBEA /* Input By QR */;
+			target = A861816F26EA5F6F0018EBEA /* Open the Door QR */;
 			targetProxy = A861818726EA5F720018EBEA /* PBXContainerItemProxy */;
 		};
 		A861819326EA5F720018EBEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A861816F26EA5F6F0018EBEA /* Input By QR */;
+			target = A861816F26EA5F6F0018EBEA /* Open the Door QR */;
 			targetProxy = A861819226EA5F720018EBEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,13 +449,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6J6L9WA58P;
 				INFOPLIST_FILE = "Input By QR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.obaibuz.Input-By-QR";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obaibuz.open-door";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,13 +469,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6J6L9WA58P;
 				INFOPLIST_FILE = "Input By QR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.obaibuz.Input-By-QR";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obaibuz.open-door";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Input By QR.app/Input By QR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open the Door QR.app/Open the Door QR";
 			};
 			name = Debug;
 		};
@@ -509,7 +523,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Input By QR.app/Input By QR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open the Door QR.app/Open the Door QR";
 			};
 			name = Release;
 		};
@@ -556,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A861816B26EA5F6F0018EBEA /* Build configuration list for PBXProject "Input By QR" */ = {
+		A861816B26EA5F6F0018EBEA /* Build configuration list for PBXProject "Open the Door QR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A861819826EA5F720018EBEA /* Debug */,
@@ -565,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A861819A26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Input By QR" */ = {
+		A861819A26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Open the Door QR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A861819B26EA5F720018EBEA /* Debug */,
@@ -574,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A861819D26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Input By QRTests" */ = {
+		A861819D26EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Open the Door QRTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A861819E26EA5F720018EBEA /* Debug */,
@@ -583,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A86181A026EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Input By QRUITests" */ = {
+		A86181A026EA5F720018EBEA /* Build configuration list for PBXNativeTarget "Open the Door QRUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A86181A126EA5F720018EBEA /* Debug */,

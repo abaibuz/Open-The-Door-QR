@@ -10,10 +10,24 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    static var phone_Number: String = ""
+    static var checkInternetConnection: CheckInternetConnection!
+    static var urlForOpenTheDoor: String = ""
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let usrDefault = UserDefaults.standard
+        if let phone_number = usrDefault.string(forKey: "phone_number") {
+               AppDelegate.phone_Number = phone_number
+        }
+        if var url = usrDefault.string(forKey: "url") {
+            if url.last != "/" {
+                url += "/"
+            }
+               AppDelegate.urlForOpenTheDoor = url
+            
+        }
+
+        AppDelegate.checkInternetConnection = CheckInternetConnection()
         return true
     }
 

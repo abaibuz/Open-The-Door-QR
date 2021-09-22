@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.analizeQRCode(QRCode:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "numberDoor">
+            </PersistentString>
+            <PersistentString
+               value = "qrCode.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
